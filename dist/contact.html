@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>My Portfolio</title>
+  </head>
+  <body>
+    <!-- ------ -->
+    <!-- Navbar -->
+    <!-- Navbar -->
+    <!-- Navbar -->
+    <!-- ------ -->
+
+    <div class="header">
+      <div class="top-header navbar">
+        <div class="logo">
+          <h2><a href="index.html">CH</a></h2>
+        </div>
+        <ul class="nav-btn">
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Network</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+      <div class="bottom-header navbar">
+        <ul class="nav-btn">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="skills.html">Certs + Skills</a></li>
+          <li><a href="Fun.html">Fun</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- ----- -->
+    <!-- intro -->
+    <!-- intro -->
+    <!-- intro -->
+    <!-- ----- -->
+
+    <div class="contact-box">
+      <div class="intro intro-contact">
+        <div class="intro-para">
+          <p>Network With Me</p>
+          <div class="intro-para-description">
+            <p>
+              I'm always looking to connect with people! Whether you're into
+              technology, gaming, food, or just want to chat, don't be afraid to
+              send me a message. I'd love to connect with you!
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div><img src="img/workspace-1280538_640.jpg" alt="" /></div>
+    </div>
+
+    <!-- contact -->
+    <!-- contact -->
+    <!-- contact -->
+    <!-- contact -->
+    <!-- contact -->
+    <!-- contact -->
+
+    <section class="contact" id="contact">
+      <h2>Get In Touch With Me</h2>
+      <div class="contact-form-container">
+        <div class="contact-form">
+          <form action="POST" data-netlify="true">
+            <div class="form-control">
+              <label for="name">Name</label>
+              <input
+                type="text"
+                id="name"
+                name="sender-name"
+                placeholder="Enter Your Name"
+                class="input-field"
+                required
+              />
+            </div>
+            <div class="form-control">
+              <label for="email">Email</label>
+              <input
+                type="email"
+                id="email"
+                name="sender-email"
+                placeholder="Enter Your Email"
+                class="input-field"
+                required
+              />
+            </div>
+            <div class="form-control">
+              <label for="message">Message</label>
+              <textarea
+                id="message"
+                cols="60"
+                rows="10"
+                placeholder="Enter Your Message"
+                name="message"
+                class="input-field"
+                required
+              ></textarea>
+            </div>
+            <div>
+              <input
+                type="file"
+                id="myfile"
+                placeholder="Upload file"
+                name="myfile"
+                rows="7"
+              />
+            </div>
+            <div class="field">
+              <div data-netlify-recaptcha="true"></div>
+            </div>
+            <input
+              type="submit"
+              value="Submit"
+              id="submit-btn"
+              class="submit-btn"
+            />
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- ------ -->
+    <!-- Footer -->
+    <!-- ------ -->
+
+    <section class="footer">
+      <div class="container grid">
+        <div>
+          <h1></h1>
+          <p>Copyright &copy; 2022</p>
+        </div>
+        <nav>
+          <ul class="links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="skills.html">Certs + Skills</a></li>
+          </ul>
+        </nav>
+        <div class="social">
+          <a href="https://github.com/CH-Webdev" target="_blank"
+            ><i class="fab fa-github fa-2x"></i
+          ></a>
+
+          <a href="https://www.instagram.com/enchantealiments/" target="_blank"
+            ><i class="fab fa-instagram fa-2x"></i
+          ></a>
+          <a href="#"><i class="fab fa-linkedin fa-2x"></i></a>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
