@@ -315,6 +315,11 @@ body {
   background-color: white ;
 }
 
+.intro .state-map{
+  max-width: 50vw;
+  max-height: 50vw;
+}
+
 /* showcase */
 /* showcase */
 /* showcase */
@@ -347,6 +352,28 @@ body {
   font-size: 1.1em;
   line-height: 1.5;
 }
+
+.state-container{
+  display: flex;
+  justify-content: space-between;
+  width: 50vw;
+  margin: 1em;
+  line-height: 1.5em;
+}
+
+.state-container li{
+  list-style-type: none;
+
+}
+
+ .state-container a{
+  text-decoration: underline;
+  color: var(--secondary-light);
+}
+
+
+
+
 
 
 /* contact */
