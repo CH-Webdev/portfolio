@@ -71,9 +71,7 @@ body {
 
 
 
-.navbar .logo a:hover {
-  color: var(--secondary);
-}
+
 
 .nav-btn {
     display: flex;
@@ -267,6 +265,11 @@ body {
   grid-template-rows: 1fr 1fr;
   gap: 2em;
   width: 70vw;
+  
+}
+
+.filter-light {
+  filter: invert(100%) sepia(41%) saturate(92%) hue-rotate(295deg) brightness(118%) contrast(92%);
   
 }
 
