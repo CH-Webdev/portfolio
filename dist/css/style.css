@@ -224,7 +224,7 @@ body {
   border-radius: 10px;
   min-height: 4em;
   min-width: 4em;
-  box-shadow: 2px 2px 9px var(--dark);
+  box-shadow: 1px 1px 5px var(--dark);
   background-color: var(--secondary);
   display: flex;
   justify-content: center;
@@ -304,7 +304,7 @@ body {
   background-color: var(--secondary);
   color: #333;
   border-radius: 10px;
-  box-shadow: 2px 2px 9px var(--dark);
+  box-shadow: 1px 1px 5px var(--dark);
   padding: 20px;
   margin: 10px;
   width: 1em;
@@ -368,12 +368,13 @@ body {
 }
 
 .game-box {
-  border: solid 2px var(--dark);
+  
   background-color: var(--secondary);
   border-radius: 10px;
   text-align: center;
   padding: 1.2em;
   color: var(--dark);
+  box-shadow: 1px 1px 5px var(--dark);
 }
 
 
@@ -477,7 +478,7 @@ body {
   }
   
   .contact-form-container {
-    box-shadow: 2px 2px 9px var(--dark);
+    box-shadow: 1px 1px 5px var(--dark);
     max-width: 40.75rem;
     margin: 0 auto;
     padding: 0.938rem;
