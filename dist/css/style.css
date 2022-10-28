@@ -381,12 +381,21 @@ body {
 }
 
 .adv-box {
-  border: 2px solid var(--secondary-light);
+  border: 2px solid var(--dark);
   border-radius: 10px;
+  padding: 1em;
+}
+
+.adv-box p{
+  margin-top: .5em;
 }
 
 
-
+.pictures{
+  display: flex;
+  justify-content: space-around;
+  margin: 1em;
+}
 
 
 
