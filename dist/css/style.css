@@ -420,7 +420,6 @@ body {
 
 .show-links a{
   margin: 1.8em;
-  text-decoration: none;
   color: var(--primary);
 }
 
