@@ -322,7 +322,40 @@ body {
 
 .intro-adv h3{
   margin: 2em ;
+  color: var(--dark);
 }
+
+.bucket-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.bucket-list h2{
+  margin-top: 1.8em;
+}
+
+.bucket-list p{
+  max-width: 768px;
+  color: var(--dark);
+}
+
+.bl-items {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  margin: 1.5em;
+}
+
+.bl-items li{
+  list-style-type: none;
+  color: var(--dark);
+  line-height: 1.3em;
+}
+
+
+
+
 
 /* showcase */
 /* showcase */
@@ -377,13 +410,17 @@ body {
 }
 
 .showcase-adventure{
-  display: grid;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .adv-box {
   border: 2px solid var(--dark);
   border-radius: 10px;
   padding: 1em;
+  margin: 2em;
+  width: 60%;
 }
 
 .adv-box p{
