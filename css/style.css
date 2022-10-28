@@ -356,6 +356,9 @@ body {
 .intro-games h3{
   color: var(--dark);
 }
+.intro-games h4{
+  color: var(--dark);
+}
 
 .game-container{
   display: grid;
@@ -377,6 +380,53 @@ body {
   box-shadow: 1px 1px 5px var(--dark);
 }
 
+.show-container{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  gap: 1em;
+  margin: 1.5em;
+  margin-bottom: 5em;
+  width: 70vw;
+
+}
+
+.show-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--secondary);
+  border-radius: 10px;
+  text-align: center;
+  
+  padding: 1.2em;
+  color: var(--dark);
+  box-shadow: 1px 1px 5px var(--dark);
+}
+
+.platform {
+  margin-top: 2em;
+  margin-bottom: 1em;
+  text-align: left;
+  font-size: 2em;
+  text-decoration: underline;
+}
+
+.show-links {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  
+}
+
+.show-links a{
+  margin: 1.8em;
+  text-decoration: none;
+  color: var(--primary);
+}
+
+.show-links a:hover{
+  color: var(--secondary-light);
+}
 
 
 
