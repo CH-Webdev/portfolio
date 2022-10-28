@@ -320,6 +320,10 @@ body {
   max-height: 50vw;
 }
 
+.intro-adv h3{
+  margin: 2em ;
+}
+
 /* showcase */
 /* showcase */
 /* showcase */
@@ -357,18 +361,28 @@ body {
   display: flex;
   justify-content: space-between;
   width: 50vw;
-  margin: 1em;
+ 
   line-height: 1.5em;
+
 }
 
 .state-container li{
   list-style-type: none;
-
+  color: var(--dark);
 }
 
  .state-container a{
   text-decoration: underline;
-  color: var(--secondary-light);
+  color: var(--primary);
+}
+
+.showcase-adventure{
+  display: grid;
+}
+
+.adv-box {
+  border: 2px solid var(--secondary-light);
+  border-radius: 10px;
 }
 
 
