@@ -353,6 +353,28 @@ body {
   line-height: 1.3em;
 }
 
+.intro-games h3{
+  color: var(--dark);
+}
+
+.game-container{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr ;
+  gap: 1em;
+  margin: 1.5em;
+  margin-bottom: 5em;
+  width: 70vw;
+
+}
+
+.game-box {
+  border: solid 2px var(--dark);
+  background-color: var(--secondary);
+  border-radius: 10px;
+  text-align: center;
+  padding: 1.2em;
+  color: var(--dark);
+}
 
 
 
